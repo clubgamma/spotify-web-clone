@@ -2,7 +2,7 @@
 
 In Hacktober Fest 2020, the community contributed in the Spotify app clone in flutter, so to cover the web platform as well, this year we have added the Spotify web clone project whose UI is also as awesome. Enjoy!
 
-##### Read the Contributing.md file for all about how to start contributing to the project.
+##### Read the [Contributing.md](https://github.com/clubgamma/spotify-web-clone/blob/main/CONTRIBUTING.md) file for all about how to start contributing to the project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
