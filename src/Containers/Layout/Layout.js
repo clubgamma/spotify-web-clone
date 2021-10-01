@@ -5,9 +5,8 @@ import Home from "../Home/Home";
 import Login from "../Login/Login";
 import Playlist from "../Playlist/Playlist";
 import Signup from "../Signup/Signup";
-import "./App.css";
 
-function App() {
+const Layout = () => {
   return (
     <Switch>
       <Route path="/signup" exact component={Signup} />
@@ -17,6 +16,6 @@ function App() {
       <Route path="/" exact component={Home} />
     </Switch>
   );
-}
+};
 
-export default App;
+export default Layout;
