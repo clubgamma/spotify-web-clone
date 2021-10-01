@@ -1,20 +1,20 @@
 import { Switch, Route } from "react-router-dom";
 
-import ArtistPage from "../ArtistScreen/Artist";
-import HomePage from "../HomeScreen/Home";
-import LoginPage from "../LoginScreen/Login";
-import PlaylistPage from "../PlaylistScreen/Playlist";
-import SignupPage from "../SignupScreen/Signup";
+import Artist from "../Artist/Artist";
+import Home from "../Home/Home";
+import Login from "../Login/Login";
+import Playlist from "../Playlist/Playlist";
+import Signup from "../Signup/Signup";
 import "./App.css";
 
 function App() {
   return (
     <Switch>
-      <Route path="/signup" exact component={SignupPage} />
-      <Route path="/login" exact component={LoginPage} />
-      <Route path="/playlist" exact component={PlaylistPage} />
-      <Route path="/artist" exact component={ArtistPage} />
-      <Route path="/" exact component={HomePage} />
+      <Route path="/signup" exact component={Signup} />
+      <Route path="/login" exact component={Login} />
+      <Route path="/playlist" exact component={Playlist} />
+      <Route path="/artist" exact component={Artist} />
+      <Route path="/" exact component={Home} />
     </Switch>
   );
 }
