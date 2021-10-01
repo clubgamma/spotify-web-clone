@@ -1,6 +1,6 @@
 import styles from "./Artist.module.css";
 
-const ArtistScreen = () => (
+const Artist = () => (
   <div className="App">
     <header className="App-header">
       <p>Artist page</p>
@@ -8,4 +8,4 @@ const ArtistScreen = () => (
   </div>
 );
 
-export default ArtistScreen;
+export default Artist;

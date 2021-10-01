@@ -1,6 +1,6 @@
 import styles from "./Login.module.css";
 
-const LoginScreen = () => (
+const Login = () => (
   <div className="App">
     <header className="App-header">
       <p>Login page</p>
@@ -8,4 +8,4 @@ const LoginScreen = () => (
   </div>
 );
 
-export default LoginScreen;
+export default Login;

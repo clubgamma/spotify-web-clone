@@ -1,6 +1,6 @@
 import styles from "./Playlist.module.css";
 
-const PlaylistScreen = () => (
+const Playlist = () => (
   <div className="App">
     <header className="App-header">
       <p>Playlist page</p>
@@ -8,4 +8,4 @@ const PlaylistScreen = () => (
   </div>
 );
 
-export default PlaylistScreen;
+export default Playlist;
