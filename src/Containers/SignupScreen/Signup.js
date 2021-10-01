@@ -1,4 +1,6 @@
-const SignupPage = () => (
+import styles from "./Playlist.module.css";
+
+const SignupScreen = () => (
   <div className="App">
     <header className="App-header">
       <p>Signup page</p>
@@ -6,4 +8,4 @@ const SignupPage = () => (
   </div>
 );
 
-export default SignupPage;
+export default SignupScreen;
