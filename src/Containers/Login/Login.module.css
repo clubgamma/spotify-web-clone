@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  margin: 1.2rem 0 1.2rem 0;
+  height: 75px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container h4 {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 12px;
+  width: 450px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 2px solid #666;
+  border-radius: 56px;
+  color: #677;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  cursor: pointer;
+  /*  background-color: #666; /*rgba(97, 100, 103, 0.8); */
+  /* color: white;
+  transition: 0.5s; */
+}
+
+.button_facebook {
+  background-color: #3b5998;
+  color: white;
+  border: 2px solid #3b5998;
+}
+
+.button_apple {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.or {
+  font-size: 12px;
+  font-weight: 610;
+  letter-spacing: 1px;
+}
+
+.loginform_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginform {
+  width: 450px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+.input:focus {
+  border: 1px solid #333;
+}
+
+.label {
+  font-weight: 620;
+  margin-bottom: 8px;
+}
+
+.loginform a {
+  display: block;
+  margin-top: 16px;
+  color: #777;
+  font-weight: 500;
+}
+
+.wrapper {
+  width: 450px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper label span {
+  display: inline-block;
+  margin-top: 0px;
+  font-size: 16px;
+  color: #777;
+  font-weight: 600;
+}
+
+.wrapper input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.button_login {
+  width: 200px;
+  background-color: #15883e;
+  border: 1px solid #15883e;
+  color: white;
+  padding: 12px;
+}
