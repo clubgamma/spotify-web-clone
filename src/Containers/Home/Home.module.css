@@ -1,0 +1,292 @@
+.App{
+    display: flex;    
+    flex-direction: row;
+    font-family: spotify-thin;
+}
+
+@font-face {
+    font-family: spotify;
+    src:url("../../Gotham-Font/Gotham-Black.otf");
+}
+
+@font-face {
+    font-family: spotify-thin;
+    src: url("../../Gotham-Font/Gotham-Bold.otf");
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width:11.6rem;
+    height: 91.1vh;
+    background-color: #040404;
+    padding: 2rem 1rem;
+}
+
+.spotifyTlogoTTtext{
+    color: white;
+    width: 131px;
+    height: 40px;
+}
+
+.logo{
+    display: flex;
+    padding-left: 0.5rem;
+}
+
+.menu,.playlistMenu{    
+    margin-top: 1.5rem;
+}
+
+.menuItem{
+    color: #b3b3b3;
+    padding:.5rem 1rem;
+    font-weight: 700;
+    border-radius: .25rem;
+    font-size: 10.5pt;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color .5s;
+}
+.menuITemsmain{
+    margin-left: 0.25rem;
+    padding-left:1rem;
+}
+.menuITems{
+    margin-left: 0.25rem;
+    padding-left: 1rem;
+}
+.menuItemTTactive{
+    display: flex;
+    padding: 0.5rem 1rem;
+    height: 22px;
+    border-radius: .25rem;
+    background-color: #282828;
+    color: #fff;
+}
+
+.menuItem:hover{
+    color: #fff;
+}
+.playListMenuItem:hover{
+    color: #fff;
+}
+
+.menuItem-icon{
+    margin-right: 1rem;
+}
+
+.playlistMenu{
+    padding: 0 1rem;
+}
+
+.playlistMenuTitle{
+    font-family: spotify;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+.playListMenuItem{
+    color:#b3b3b3;
+    font-size: 10pt;
+    font-weight: 700;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.createPlaylistTicon{
+    background: #fff;
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    -ms-flex-negative:0;
+    flex-shrink: 0;
+    fill: #000;
+    margin-right: 1rem;
+}
+
+.playlistMenuItem+.playlistMenu{
+    margin-top: .5rem;
+
+}
+
+.main{
+    width: 80.4rem;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    background-color: #090909;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+}
+
+.headerLeft{
+    color: #fff;
+    width: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 2rem; */
+}
+
+.headerLeft{
+    text-align: left;
+}
+
+.backButtonTicon{
+    opacity: 1;
+    height: 22px;
+    width: 22px;
+}
+
+.headerLeft{
+    width: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerRight{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;     
+}
+
+.signinTbutton:hover{
+    padding: .75rem 1.25rem;
+}
+.signupTbutton:hover{
+    padding: .75rem 1.25rem;
+}
+
+.signinTbutton{
+    color: #000;
+    background-color: #fff;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding:.5rem 1rem;
+    border-radius: 5rem;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: .2s;
+}
+.signupTbutton{
+    color: #fff;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding:.5rem 1rem;
+    border-radius: 5rem;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: .2s;
+    /* background-color: #fff; */
+}
+
+.body{
+    width: 82.4rem;
+    background-color: #1e1e1e;
+    height: 91.1vh;    
+}
+
+.headerBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerBodyTTtitle{
+    font-family: spotify;
+    color: #fff;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18pt;
+    padding:1rem 2rem;
+
+}
+
+.headerBodyTTtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.headerBodyTTseeAll{
+    align-items: flex-end;
+    padding-top:1.5rem;
+    padding-right: 3rem;
+    color: #b3b3b3;
+    font-size: 9pt;
+    font-weight: 600;
+}
+
+.headerBodyTTseeAll:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.mainbody{    
+    height: 250px;
+    padding: 1rem 1rem;    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.cardItem{    
+    background-color: #161616;
+    height: 250px;
+    width:200px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: all 0.5s;
+}
+
+.cardItem:hover{
+    background-color: #282828;
+}
+
+.cardItemTimg{
+    border-radius: 2px;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    width: 150px;
+    height: 150px;
+}
+
+.imgTtitle{
+    font-family: spotify;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.imgTdes{
+    padding-top: 2px;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 12px;
+    color: rgba(201,201,201,1);    
+    font-size: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18rem;
+    text-align: left;
+    padding-bottom: 0px;
+    color:#868b8c;
+    font-size: 12px;
+}

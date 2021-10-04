@@ -1,0 +1,162 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.signup_main{
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signupHead{
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+}
+.spotifyLogo{
+    width: 40px;
+}
+.headText{
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+.headTextSignup{
+    padding-bottom: 2rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.signInFbBtn{
+    cursor: pointer;
+    margin: auto;
+    width:13rem;
+    font-weight: 650;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    text-align: center;
+    color:white;
+    background-color: #1877F2;
+}
+.orSignup{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem ;
+}
+.orLine{
+    margin: 2rem;
+    color: #b2bbb5;
+    width: 80%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+.orLine span{
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.phoneSignup{
+    color: #1DB954;
+    text-decoration: underline;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.signUpLabel{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.SignUpform{
+    padding: 1rem;
+}
+
+.dobSignUp{
+    display: flex;
+    justify-content: flex-start;
+}
+.dobYearSignUp{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.2rem;
+}
+.dobMonthSignUp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.2rem;
+}
+.dobDaySignUp{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.inpDobSignUp{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    outline: none;
+}
+.inpDobSignUp:focus{
+    padding: 0.7rem;
+    outline-color: #191414;
+    outline-style: solid;
+}
+.dobTextSignUp{
+    margin: 0.7rem 0; 
+    font-size: 0.9rem;
+}
+
+.signRadio{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:baseline;
+}
+.radioLabel{
+    margin-right: 1rem;
+}
+.signUpRadio{
+    margin-right: 1rem;
+}
+
+.signupTerms{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.inpSignup{
+    margin: 0.6rem 0;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    outline: none;
+    width: 90%;
+}
+.inpSignup:focus{
+    padding: 0.7rem;
+    outline-color: #191414;
+    outline-style: solid;
+}
+.spanClass{
+    color: #1DB954;
+    text-decoration: underline;
+}
+
+.subBSignUp{
+    display: flex;
+    justify-content: center;
+}
+.submitButton{
+    cursor: pointer;
+    width:6rem;
+    margin: 1rem 2rem;
+    font-weight: 650;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    color:#191414;
+    background-color: #1DB954;
+}
+
+/* error */
+.errorSignup{
+    color: red;
+}
