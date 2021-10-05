@@ -3,8 +3,8 @@ import Logo from "../../Assets/spotify-logo.png";
 import { Link } from "react-router-dom";
 
 const Login = () => (
-  <div>
-    <div className={styles.header}>
+  <div data-testid="Login" >
+    <div data-testid="logoImg" className={styles.header}>
       <img src={Logo} alt="logo" className={styles.logo} />
     </div>
 
