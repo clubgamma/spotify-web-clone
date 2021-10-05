@@ -1,7 +1,7 @@
 import styles from "./Playlist.module.css";
 
 const Playlist = () => (
-  <div className="App">
+  <div data-testid="App" className="App">
     <header className="App-header">
       <p>Playlist page</p>
     </header>

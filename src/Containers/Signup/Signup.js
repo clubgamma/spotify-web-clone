@@ -34,13 +34,13 @@ const Signup = () => {
   return(
     <>
       <div className="signup_main">
-        <div className="signupHead">    
-          <img src={spotify} className="spotifyLogo" />&nbsp;
-          <div className="headText">Spotify</div>
+        <div data-testid="signupHead" className="signupHead">    
+          <img data-testid="signupHeadImg" src={spotify} className="spotifyLogo" />&nbsp;
+          <div data-testid="headTextName" className="headText">Spotify</div>
         </div>
 
         <h2 className="headTextSignup">Sign up for free to start listening.</h2>
-        <div className="signInFbBtn">Sign up with facebook</div>
+        <div data-testid="Sign_up_with_facebook" className="signInFbBtn">Sign up with facebook</div>
         <div className="orSignup"><div className="orLine"><span>or</span></div></div>
 
         <form className="SignUpform">
