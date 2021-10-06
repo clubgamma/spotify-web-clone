@@ -62,7 +62,11 @@ const Login = () => (
         </div>
 
         <h3>Don't have an account?</h3>
-        <button className={styles.button}>SIGN UP FOR SPOTIFY</button>
+        <button className={styles.button}>
+          <Link to="/signup" className={styles.link}>
+            SIGN UP FOR SPOTIFY
+          </Link>
+        </button>
       </div>
     </div>
   </div>
