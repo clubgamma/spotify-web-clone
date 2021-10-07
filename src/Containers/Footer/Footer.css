@@ -1,0 +1,117 @@
+@import url(//db.onlinewebfonts.com/c/112ec584bfc481ccde03444e67f8fc3f?family=Circular+Spotify+Tx+T+Bold);
+body{
+    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+    background: #FFF;
+}
+
+footer{
+    width: 100%;
+    position: fixed;        
+    height:4.7rem;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    /* padding: 5px 0; */
+    color: #fff;
+    bottom: 0;
+}
+.fcontent{
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem 2.5rem;
+    line-height: 24px;
+}
+.right{
+    padding: 1.2rem 1.5rem;
+}
+.text1{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.09rem;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+}
+.footerbtn{
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 1.65rem;
+    width: 13.3rem;
+    color: #2e77d0;
+    background-color: #fff;
+    text-align: center;
+    /* font-size: 1rem; */
+    font-size: 14px;
+    border-radius: 4rem;
+    padding-top: 0.7rem;
+    font-weight: 650;
+    /* letter-spacing: 0.2rem; */
+    letter-spacing: 1.76px;
+    line-height: 18px;
+}
+.footerbtn:hover{
+    transform: scale(1.06);
+}
+/* footer .para-1{ */
+    /* margin: 0 0 4px; */
+    /* font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff; */
+    /* -webkit-box-direction: normal; */
+    /* cursor: pointer;
+    user-select: none;
+} */
+/* footer .para-2{ */
+    /* font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: none;
+    display: block; */
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+    /* color: #fff; */
+    /* -webkit-box-direction: normal; */
+    /* cursor: pointer;
+    user-select: none;
+    white-space: nowrap; */
+/* } */
+/* .button{
+    float: right;
+    margin-right: 20px;
+    
+} */
+/* button{ */
+    /* margin-left: 24px; */
+    /* color: #2e77d0;
+    font-size: 14px;
+    margin: 8px 0 12px;
+    padding: 8px 48px;
+    white-space: nowrap;
+    background-color: #fff;
+
+    border: 2px solid transparent;
+    border-radius: 500px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1.76px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 33ms cubic-bezier(.3,0,0,1);
+    will-change: transform;
+    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif; */
+/* } */
+/* button:hover{
+    transform: scale(1.06);
+} */
