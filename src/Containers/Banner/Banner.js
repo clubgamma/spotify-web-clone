@@ -1,8 +1,8 @@
 import Signup from '../Signup/Signup';
 import { Link } from 'react-router-dom';
-import './Footer.css';
+import './Banner.css';
 
-function Footer() {
+function Banner() {
     return (
         <div className="musicControls">
             <footer>
@@ -22,7 +22,7 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Banner;
 
 
 

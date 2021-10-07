@@ -1,5 +1,5 @@
 import styles from "./Home.module.css";
-
+import Banner from "../Banner/Banner";
 const Home = () => (  
   <>
   <div>
@@ -181,6 +181,7 @@ const Home = () => (
 
     </div>          
     </div>
+    <Banner />
     </>
 );
 
