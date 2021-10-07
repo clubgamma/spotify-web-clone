@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Banner from "../Banner/Banner";
 const Home = () => (  
@@ -70,10 +71,14 @@ const Home = () => (
         </div>
         <div className={styles.headerRight}>
           <div className={styles.signupTbutton}>
-            SIGN UP
+            <Link to="/signup" className={styles.link}>
+              SIGN UP
+            </Link>
           </div>        
             <div className={styles.signinTbutton}>
-              LOG IN
+              <Link to="/login" className={styles.link}>
+                LOG IN
+              </Link>
           </div>
         </div>
       </div>

@@ -290,3 +290,8 @@
     color:#868b8c;
     font-size: 12px;
 }
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}

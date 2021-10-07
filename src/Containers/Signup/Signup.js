@@ -1,6 +1,7 @@
 import "./signup.css";
 import spotify from './spotify.png'
 import react,{useState} from "react";
+import { Link } from "react-router-dom";
 import validation from './validateSignup' 
 
 const Signup = () => {
@@ -185,7 +186,7 @@ const Signup = () => {
 
           <div className="subBSignUp" onClick={signUpClicked}><div className="submitButton">Sign up</div></div>
 
-          <div style={{textAlign:"center"}}>Have an account? <span className="spanClass">Log in</span>.</div>
+          <div style={{textAlign:"center"}}>Have an account? <Link to="/login" className="spanClass">Log in</Link>.</div>
         </form>
 
       </div>
