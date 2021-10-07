@@ -20,6 +20,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 (won't require)
 Builds the app for production to the `build` folder.\
 
+#### `npm run test`
+
+By using this command you can run tests , which will test different component and features .
+
 # Things to keep in mind
 
 - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
@@ -27,11 +31,13 @@ Builds the app for production to the `build` folder.\
 - **To get Digital Ocean swags, you just have to make minimum 4 PRs to any open source projects on GitHub**
 - **If a maintainer reports your pull request as spam, it will not be counted towards your participation in Hacktoberfest.**
 
+
+
 ## Contact Us
 
 **To know more about us, visit [official website](https://clubgamma.github.io/) of Club Gamma.**
 
-**To know more about how Club Gamma is going to celebrate Hacktoberfest, click [here](https://clubgamma.github.io/hacktoberfest2021/)**
+**To know more about how Club Gamma is going to celebrate Hacktoberfest, click [here](https://clubgamma.github.io/hacktoberfest2021/)*
 
 <br>
 <div align="center">  
