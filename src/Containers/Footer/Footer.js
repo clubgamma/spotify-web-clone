@@ -1,3 +1,5 @@
+import Signup from '../Signup/Signup';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function Footer() {
@@ -11,7 +13,7 @@ function Footer() {
                             <div className="text2">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</div>
                         </div>
                         <div className="right">
-                            <div class="footerbtn" type="button">Sign up free</div>
+                            <div className="footerbtn" type="button"><Link to="/signup" style={{textDecoration: "none", color: "#2e77d0"}}>Sign up free</Link></div>
                         </div>
                     </div>
                 </div>

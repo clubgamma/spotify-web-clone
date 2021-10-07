@@ -9,7 +9,6 @@ footer{
     position: fixed;        
     height:4.7rem;
     background-image: linear-gradient(90deg,#af2896,#509bf5);
-    /* padding: 5px 0; */
     color: #fff;
     bottom: 0;
 }
@@ -44,74 +43,13 @@ footer{
     color: #2e77d0;
     background-color: #fff;
     text-align: center;
-    /* font-size: 1rem; */
     font-size: 14px;
     border-radius: 4rem;
     padding-top: 0.7rem;
     font-weight: 650;
-    /* letter-spacing: 0.2rem; */
     letter-spacing: 1.76px;
     line-height: 18px;
 }
 .footerbtn:hover{
     transform: scale(1.06);
 }
-/* footer .para-1{ */
-    /* margin: 0 0 4px; */
-    /* font-size: 12px;
-    font-weight: 400;
-    letter-spacing: .1em;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #fff; */
-    /* -webkit-box-direction: normal; */
-    /* cursor: pointer;
-    user-select: none;
-} */
-/* footer .para-2{ */
-    /* font-size: 16px;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 24px;
-    text-transform: none;
-    display: block; */
-    /* margin-block-start: 1em; */
-    /* margin-block-end: 1em; */
-    /* margin-inline-start: 0px; */
-    /* margin-inline-end: 0px; */
-    /* color: #fff; */
-    /* -webkit-box-direction: normal; */
-    /* cursor: pointer;
-    user-select: none;
-    white-space: nowrap; */
-/* } */
-/* .button{
-    float: right;
-    margin-right: 20px;
-    
-} */
-/* button{ */
-    /* margin-left: 24px; */
-    /* color: #2e77d0;
-    font-size: 14px;
-    margin: 8px 0 12px;
-    padding: 8px 48px;
-    white-space: nowrap;
-    background-color: #fff;
-
-    border: 2px solid transparent;
-    border-radius: 500px;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    letter-spacing: 1.76px;
-    line-height: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: all 33ms cubic-bezier(.3,0,0,1);
-    will-change: transform;
-    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif; */
-/* } */
-/* button:hover{
-    transform: scale(1.06);
-} */
