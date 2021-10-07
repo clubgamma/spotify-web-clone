@@ -23,6 +23,15 @@ Builds the app for production to the `build` folder.\
 #### `npm run test`
 
 By using this command you can run tests , which will test different component and features .
+testing means that you test individual parts (units) of your software. You do that by defining results that your code should produce for certain input values and verify whether they occur.
+There are a lot of reasons why it is useful to write unit tests, the most obvious being:
+* you can find and fix bugs before they occur.
+* you automatically think about edge cases in your code more often.
+* it gets tremendously easier to work together with other developers or to hand over the project to someone else.
+
+If yoy want to learn more you can visit:
+* https://reactjs.org/docs/testing.html
+* https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2
 
 # Things to keep in mind
 
