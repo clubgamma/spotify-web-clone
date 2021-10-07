@@ -126,3 +126,8 @@
   color: white;
   padding: 12px;
 }
+
+.link{
+  color: inherit;
+  text-decoration: none;
+}
