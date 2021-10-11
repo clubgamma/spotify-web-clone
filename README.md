@@ -20,6 +20,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 (won't require)
 Builds the app for production to the `build` folder.\
 
+#### `npm run test`
+
+By using this command you can run tests , which will test different component and features .
+testing means that you test individual parts (units) of your software. You do that by defining results that your code should produce for certain input values and verify whether they occur.
+There are a lot of reasons why it is useful to write unit tests, the most obvious being:
+* you can find and fix bugs before they occur.
+* you automatically think about edge cases in your code more often.
+* it gets tremendously easier to work together with other developers or to hand over the project to someone else.
+
+If yoy want to learn more you can visit:
+* https://reactjs.org/docs/testing.html
+* https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2
+
 # Things to keep in mind
 
 - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
@@ -27,11 +40,13 @@ Builds the app for production to the `build` folder.\
 - **To get Digital Ocean swags, you just have to make minimum 4 PRs to any open source projects on GitHub**
 - **If a maintainer reports your pull request as spam, it will not be counted towards your participation in Hacktoberfest.**
 
+
+
 ## Contact Us
 
 **To know more about us, visit [official website](https://clubgamma.github.io/) of Club Gamma.**
 
-**To know more about how Club Gamma is going to celebrate Hacktoberfest, click [here](https://clubgamma.github.io/hacktoberfest2021/)**
+**To know more about how Club Gamma is going to celebrate Hacktoberfest, click [here](https://clubgamma.github.io/hacktoberfest2021/)*
 
 <br>
 <div align="center">  
