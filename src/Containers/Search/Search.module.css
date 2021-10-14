@@ -1,0 +1,29 @@
+/* .temp {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #090909;
+} */
+
+.container {
+  padding-top: 4rem;
+  padding-left: 11.6rem;
+  background-color: #1e1e1e;
+}
+
+.container h1 {
+  font-family: spotify;
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* min-height: 300px; */
+  /* min-width: 100%; */
+  /* margin-bottom: 16px; */
+}
