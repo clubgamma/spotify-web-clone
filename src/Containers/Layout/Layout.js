@@ -5,10 +5,12 @@ import Home from "../Home/Home";
 import Login from "../Login/Login";
 import Playlist from "../Playlist/Playlist";
 import Signup from "../Signup/Signup";
+import Search from "../Search/Search";
 
 const Layout = () => {
   return (
     <Switch>
+      <Route path="/search" exact component={Search} />
       <Route path="/signup" exact component={Signup} />
       <Route path="/login" exact component={Login} />
       <Route path="/playlist" exact component={Playlist} />
