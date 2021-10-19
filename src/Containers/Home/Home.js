@@ -52,7 +52,7 @@ const Home = () => (
                   ></path>
                 </svg>
               </div>
-              <Link to="/search">
+              <Link to="/search" className={styles.search}>
                 <div className={styles.menuITems}>Search</div>
               </Link>
             </div>
